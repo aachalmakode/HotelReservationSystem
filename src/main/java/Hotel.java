@@ -1,4 +1,3 @@
-
 public class Hotel {
 
     private String name;
@@ -9,21 +8,28 @@ public class Hotel {
         this.setPrice(price);
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
-    public int getPrice() {
+    public int getPrice()
+    {
+
         return price;
     }
-    public void setPrice(int price) {
+    public void setPrice(int price)
+    {
         this.price = price;
     }
 
     @Override
-    public String toString(){
+    public String toString()
+    {
+
         return "Hotel Name: "+name+" Price: "+price;
     }
 }
